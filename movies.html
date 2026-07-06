@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Seance</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.umd.js"></script>
+</head>
+<body class="movies-page">
+
+  <header>
+    <a href="index.html" class="site-title">Seance</a>
+    <div class="header-right">
+      <input type="text" id="searchInput" placeholder="Search movies..." />
+      <button class="watchlist-btn" id="watchlistToggle">♥ Watchlist</button>
+    </div>
+  </header>
+
+  <div class="tabs">
+    <button class="tab active" data-type="popular">Popular</button>
+    <button class="tab" data-type="trending">Trending</button>
+    <button class="tab" data-type="top_rated">Top Rated</button>
+  </div>
+
+  <div id="genres">
+    <button class="genre-btn active" data-id="">All</button>
+    <button class="genre-btn" data-id="28">Action</button>
+    <button class="genre-btn" data-id="35">Comedy</button>
+    <button class="genre-btn" data-id="18">Drama</button>
+    <button class="genre-btn" data-id="27">Horror</button>
+    <button class="genre-btn" data-id="10749">Romance</button>
+    <button class="genre-btn" data-id="878">Sci-Fi</button>
+    <button class="genre-btn" data-id="16">Animation</button>
+    <button class="genre-btn" data-id="53">Thriller</button>
+  </div>
+  <div class="rating-filter">
+    <span>Min Rating:</span>
+    <input type="range" id="ratingFilter" min="0" max="9" step="0.5" value="0"/>
+    <span id="ratingValue">0+</span>
+  </div>
+  <div id="movies"></div>
+  <div id="popup-container"></div>
+  <div class="watchlist-panel" id="watchlistPanel">
+    <button class="panel-close" id="panelClose">✕</button>
+    <h2>♥ My Watchlist</h2>
+    <div id="watchlistItems"></div>
+  </div>
+  <script src="script.js"></script>
+
+</body>
+</html>
