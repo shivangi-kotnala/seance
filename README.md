@@ -28,7 +28,7 @@ Séance is a dark, elegant movie discovery app built with vanilla HTML, CSS and 
 
 ## 🚀 Live Demo
 
-👉 [seance.live](https://shivangi-kotnala.github.io/seance)
+👉 [seance.live]([https://shivangi-kotnala.github.io/seance])
 
 ---
 
