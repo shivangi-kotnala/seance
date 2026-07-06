@@ -40,13 +40,6 @@ Séance is a dark, elegant movie discovery app built with vanilla HTML, CSS and 
 
 ## 🔧 How to Run Locally
 
-1. Clone the repo
-```bash
-   git clone https://github.com/yourusername/seance.git
-```
-2. Open the folder in VS Code
-3. Right click `index.html` → Open with Live Server
-
 No installs needed. No frameworks. Pure HTML, CSS and JS.
 
 ---
